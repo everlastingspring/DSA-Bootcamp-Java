@@ -1,4 +1,4 @@
-package com.kunal;
+package code.src.com.kunal;
 
 public class FindMin {
     public static void main(String[] args) {
@@ -9,13 +9,13 @@ public class FindMin {
     // assume arr.length != 0
     // return the minimum value in the array
     static int min(int[] arr) {
-        int ans = arr[0];
+        int min = arr[0];
         for (int i = 1; i < arr.length; i++) {
-            if (arr[i] < ans) {
-                ans = arr[i];
+            if (arr[i] < min) {
+                min = arr[i];
             }
         }
-        return ans;
+        return min;
     }
 
 

@@ -1,4 +1,4 @@
-package com.kunal;
+package code.src.com.kunal;
 
 public class OrderAgnosticBS {
     public static void main(String[] args) {
@@ -18,7 +18,8 @@ public class OrderAgnosticBS {
 
         while(start <= end) {
             // find the middle element
-//            int mid = (start + end) / 2; // might be possible that (start + end) exceeds the range of int in java
+//            int mid = (start + end) / 2;
+// might be possible that (start + end) exceeds the range of int in java
             int mid = start + (end - start) / 2;
 
             if (arr[mid] == target) {

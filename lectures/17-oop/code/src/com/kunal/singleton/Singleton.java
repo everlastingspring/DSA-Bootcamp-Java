@@ -1,12 +1,10 @@
-package com.kunal.singleton;
+package code.src.com.kunal.singleton;
 
-import com.kunal.access.A;
 
 public class Singleton {
     private Singleton () {
 
     }
-
     private static Singleton instance;
 
     public static Singleton getInstance() {

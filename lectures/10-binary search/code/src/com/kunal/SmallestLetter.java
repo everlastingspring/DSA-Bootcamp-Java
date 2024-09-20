@@ -1,17 +1,20 @@
-package com.kunal;
+package code.src.com.kunal;
+
 // https://leetcode.com/problems/find-smallest-letter-greater-than-target/
 public class SmallestLetter {
 
     public static void main(String[] args) {
-
+        char[] letters = new char[]{'c', 'f', 'j'};
+        char target = 'c';
+        System.out.println(nextGreatestLetter(letters, target));
     }
 
-    public char nextGreatestLetter(char[] letters, char target) {
+    static char nextGreatestLetter(char[] letters, char target) {
 
         int start = 0;
         int end = letters.length - 1;
 
-        while(start <= end) {
+        while (start <= end) {
             // find the middle element
 //            int mid = (start + end) / 2; // might be possible that (start + end) exceeds the range of int in java
             int mid = start + (end - start) / 2;

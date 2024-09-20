@@ -1,4 +1,4 @@
-package com.kunal;
+package code.src.com.kunal;
 
 public class SB {
     public static void main(String[] args) {
@@ -8,7 +8,7 @@ public class SB {
             builder.append(ch);
         }
 
-        System.out.println(builder.toString());
+        System.out.println(builder);
 
         builder.reverse();
 

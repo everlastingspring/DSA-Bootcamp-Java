@@ -1,4 +1,4 @@
-package com.kunal;
+package code.src.com.kunal;
 
 import java.util.Arrays;
 
@@ -9,7 +9,8 @@ public class Methods {
         System.out.println(name.toLowerCase());
         System.out.println(name);
         System.out.println(name.indexOf('a'));
-        System.out.println("     Kunal   ".strip());
+        System.out.println("     Kunal   ".strip().length());
+        System.out.println("     Kunal   ".length());
         System.out.println(Arrays.toString(name.split(" ")));
     }
 }

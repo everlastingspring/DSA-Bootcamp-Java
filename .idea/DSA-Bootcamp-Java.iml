@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/lectures/01-git" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lectures/02-intro to programming" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lectures/03-flow of program" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lectures/04-introduction to java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lectures/05-first-java-program" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lectures/05-first-java-program/first-idea-program/src/com/kunal" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lectures/06-conditions-loops" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lectures/07-methods" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lectures/07-methods/code/src/com/kunal" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lectures/08-arrays" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lectures/09-linear search" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lectures/10-binary search" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lectures/11-sorting" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lectures/12-strings" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lectures/18-linkedlist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lectures/17-oop" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

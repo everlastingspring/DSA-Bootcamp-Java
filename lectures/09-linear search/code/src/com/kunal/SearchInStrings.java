@@ -1,4 +1,4 @@
-package com.kunal;
+package code.src.com.kunal;
 
 import java.util.Arrays;
 
@@ -6,8 +6,7 @@ public class SearchInStrings {
     public static void main(String[] args) {
         String name = "Kunal";
         char target = 'u';
-//        System.out.println(search(name, target));
-
+        System.out.println(search(name, target));
         System.out.println(Arrays.toString(name.toCharArray()));
     }
 
@@ -17,7 +16,7 @@ public class SearchInStrings {
             return false;
         }
 
-        for(char ch : str.toCharArray()) {
+        for (char ch : str.toCharArray()) {
             if (ch == target) {
                 return true;
             }

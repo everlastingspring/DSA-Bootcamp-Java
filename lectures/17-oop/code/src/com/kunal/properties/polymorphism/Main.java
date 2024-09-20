@@ -1,5 +1,8 @@
 package com.kunal.properties.polymorphism;
 
+import com.kunal.properties.inheritance.BMW;
+import com.kunal.properties.inheritance.Car;
+
 public class Main {
     public static void main(String[] args) {
         Shapes shape = new Shapes();

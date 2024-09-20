@@ -1,4 +1,4 @@
-package com.kunal;
+package code.src.com.kunal;
 
 public class CountNums {
     public static void main(String[] args) {
@@ -6,10 +6,7 @@ public class CountNums {
 
         int count = 0;
         while (n > 0) {
-            int rem = n % 10;
-            if (rem == 5) {
-                count++;
-            }
+            count++;
             n = n / 10; // n /= 10
         }
 

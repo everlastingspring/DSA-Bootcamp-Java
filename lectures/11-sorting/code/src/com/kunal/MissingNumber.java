@@ -1,4 +1,4 @@
-package com.kunal;
+package code.src.com.kunal;
 // https://leetcode.com/problems/missing-number/
 // Amazon Question
 class MissingNumber {
@@ -26,7 +26,7 @@ class MissingNumber {
             }
         }
 
-        // case 2
+        // case 2 if number is not there in the array
         return arr.length;
     }
 

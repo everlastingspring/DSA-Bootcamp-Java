@@ -1,4 +1,4 @@
-package com.kunal;
+package code.src.com.kunal;
 
 public class Palin {
     public static void main(String[] args) {

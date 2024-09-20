@@ -1,4 +1,4 @@
-package com.kunal;
+package code.src.com.kunal;
 
 public class Reverse {
     public static void main(String[] args) {
@@ -9,7 +9,6 @@ public class Reverse {
         while (num > 0) {
             int rem = num % 10;
             num /= 10;
-
             ans = ans * 10 + rem;
         }
 

@@ -1,4 +1,4 @@
-package com.kunal.access;
+package code.src.com.kunal.access;
 
 public class A {
     protected int num;

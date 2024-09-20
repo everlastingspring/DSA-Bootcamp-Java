@@ -1,11 +1,14 @@
-package com.kunal;
+package code.src.com.kunal;
+
+import java.util.Arrays;
 
 public class FirstAndLastPosition {
     public static void main(String[] args) {
-
+        int[] arr = new int[]{5, 7, 8, 8, 8, 9, 9, 9, 9, 9, 10, 11, 11, 12};
+        System.out.println(Arrays.toString(searchRange(arr, 8)));
     }
 
-    public int[] searchRange(int[] nums, int target) {
+    static int[] searchRange(int[] nums, int target) {
 
         int[] ans = {-1, -1};
         // check for first occurrence if target first
@@ -17,11 +20,11 @@ public class FirstAndLastPosition {
     }
 
     // this function just returns the index value of target
-    int search(int[] nums, int target, boolean findStartIndex) {
+    static int search(int[] nums, int target, boolean findStartIndex) {
         int ans = -1;
         int start = 0;
         int end = nums.length - 1;
-        while(start <= end) {
+        while (start <= end) {
             // find the middle element
 //            int mid = (start + end) / 2; // might be possible that (start + end) exceeds the range of int in java
             int mid = start + (end - start) / 2;

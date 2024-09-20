@@ -1,4 +1,4 @@
-package com.kunal;
+package code.src.com.kunal;
 
 import java.util.Arrays;
 
@@ -11,12 +11,11 @@ public class SearchIn2DArray {
                 {18, 12}
         };
         int target = 56;
-        int[] ans = search(arr,target); // format of return value {row, col}
+        int[] ans = search(arr, target); // format of return value {row, col}
         System.out.println(Arrays.toString(ans));
 
         System.out.println(max(arr));
 
-        System.out.println(Integer.MIN_VALUE);
     }
 
     static int[] search(int[][] arr, int target) {

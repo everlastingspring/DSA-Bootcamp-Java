@@ -1,9 +1,7 @@
-package com.kunal.singleton;
+package code.src.com.kunal.singleton;
 
-import com.kunal.access.A;
 
-import java.util.ArrayList;
-import java.util.Collections;
+import code.src.com.kunal.access.A;
 
 public class SubClass extends A {
 

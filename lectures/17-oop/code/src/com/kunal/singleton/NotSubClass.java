@@ -1,9 +1,6 @@
-package com.kunal.singleton;
-
-import com.kunal.access.A;
+package code.src.com.kunal.singleton;
 
 public class NotSubClass{
-
 
     public static void main(String[] args) {
         NotSubClass obj = new NotSubClass();

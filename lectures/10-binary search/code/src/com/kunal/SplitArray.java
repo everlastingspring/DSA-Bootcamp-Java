@@ -1,11 +1,14 @@
-package com.kunal;
+package code.src.com.kunal;
+
 // https://leetcode.com/problems/split-array-largest-sum/
 public class SplitArray {
     public static void main(String[] args) {
-
+        int[] nums = new int[]{7, 2, 5, 10, 8};
+        int k = 2;
+        System.out.println(splitArray(nums, k));
     }
 
-    public int splitArray(int[] nums, int m) {
+    static int splitArray(int[] nums, int m) {
         int start = 0;
         int end = 0;
 
@@ -22,7 +25,7 @@ public class SplitArray {
             // calculate how many pieces you can divide this in with this max sum
             int sum = 0;
             int pieces = 1;
-            for(int num : nums) {
+            for (int num : nums) {
                 if (sum + num > mid) {
                     // you cannot add this in this subarray, make new one
                     // say you add this num in new subarray, then sum = num

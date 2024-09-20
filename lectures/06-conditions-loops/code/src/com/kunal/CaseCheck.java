@@ -1,4 +1,4 @@
-package com.kunal;
+package code.src.com.kunal;
 
 import java.util.Scanner;
 

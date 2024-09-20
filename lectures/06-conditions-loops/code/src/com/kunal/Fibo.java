@@ -1,5 +1,7 @@
-package com.kunal;
+package code.src.com.kunal;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Fibo {
@@ -9,14 +11,18 @@ public class Fibo {
         int a = 0;
         int b = 1;
         int count = 2;
-
+        List<Integer> fibonaci = new ArrayList<>();
+        fibonaci.add(a);
         while (count <= n) {
             int temp = b;
             b = b + a;
             a = temp;
             count++;
+            fibonaci.add(b);
         }
 
         System.out.println(b);
+        System.out.println(fibonaci);
+
     }
 }

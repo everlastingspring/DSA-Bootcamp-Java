@@ -28,5 +28,7 @@ public class Main {
 
         BoxWeight box = new BoxWeight();
         BoxWeight.greeting(); // you can inherit but you cannot override
+        Car car = new Car();
+        System.out.println(car);
     }
 }
